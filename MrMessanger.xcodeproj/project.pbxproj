@@ -14,6 +14,19 @@
 		E81771531AFADEEA00440F50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81771521AFADEEA00440F50 /* Images.xcassets */; };
 		E81771561AFADEEA00440F50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E81771541AFADEEA00440F50 /* LaunchScreen.xib */; };
 		E81771621AFADEEA00440F50 /* MrMessangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81771611AFADEEA00440F50 /* MrMessangerTests.m */; };
+		E817716E1AFAE1D100440F50 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E817716C1AFAE1D100440F50 /* SetupViewController.m */; };
+		E817716F1AFAE1D100440F50 /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E817716D1AFAE1D100440F50 /* SetupViewController.xib */; };
+		E81771731AFAE91C00440F50 /* MemberListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81771711AFAE91C00440F50 /* MemberListViewController.m */; };
+		E81771741AFAE91C00440F50 /* MemberListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E81771721AFAE91C00440F50 /* MemberListViewController.xib */; };
+		E81771761AFAE9B300440F50 /* MemberViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E81771751AFAE9B300440F50 /* MemberViewCell.xib */; };
+		E81771791AFAED8500440F50 /* MemberViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81771781AFAED8500440F50 /* MemberViewCell.m */; };
+		E817717D1AFAF6DA00440F50 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E817717B1AFAF6DA00440F50 /* ChatViewController.m */; };
+		E817717E1AFAF6DA00440F50 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E817717C1AFAF6DA00440F50 /* ChatViewController.xib */; };
+		E81771801AFB124500440F50 /* ChatViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E817717F1AFB124500440F50 /* ChatViewCell.xib */; };
+		E81771831AFB232300440F50 /* ChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81771821AFB232300440F50 /* ChatViewCell.m */; };
+		E8B07D451B00262400AC4712 /* NetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B07D431B00262400AC4712 /* NetWorkController.m */; };
+		E8B07D491B02ECAA00AC4712 /* MemberListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B07D481B02ECAA00AC4712 /* MemberListDataModel.m */; };
+		E8B07D4C1B02ED3400AC4712 /* ChatDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B07D4B1B02ED3400AC4712 /* ChatDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,27 @@
 		E817715B1AFADEEA00440F50 /* MrMessangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrMessangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81771601AFADEEA00440F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E81771611AFADEEA00440F50 /* MrMessangerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrMessangerTests.m; sourceTree = "<group>"; };
+		E817716B1AFAE1D100440F50 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		E817716C1AFAE1D100440F50 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		E817716D1AFAE1D100440F50 /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
+		E81771701AFAE91C00440F50 /* MemberListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberListViewController.h; sourceTree = "<group>"; };
+		E81771711AFAE91C00440F50 /* MemberListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberListViewController.m; sourceTree = "<group>"; };
+		E81771721AFAE91C00440F50 /* MemberListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemberListViewController.xib; sourceTree = "<group>"; };
+		E81771751AFAE9B300440F50 /* MemberViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemberViewCell.xib; sourceTree = "<group>"; };
+		E81771771AFAED8500440F50 /* MemberViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewCell.h; sourceTree = "<group>"; };
+		E81771781AFAED8500440F50 /* MemberViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewCell.m; sourceTree = "<group>"; };
+		E817717A1AFAF6DA00440F50 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		E817717B1AFAF6DA00440F50 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		E817717C1AFAF6DA00440F50 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		E817717F1AFB124500440F50 /* ChatViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewCell.xib; sourceTree = "<group>"; };
+		E81771811AFB232300440F50 /* ChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewCell.h; sourceTree = "<group>"; };
+		E81771821AFB232300440F50 /* ChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewCell.m; sourceTree = "<group>"; };
+		E8B07D421B00262400AC4712 /* NetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkController.h; sourceTree = "<group>"; };
+		E8B07D431B00262400AC4712 /* NetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkController.m; sourceTree = "<group>"; };
+		E8B07D471B02ECAA00AC4712 /* MemberListDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberListDataModel.h; sourceTree = "<group>"; };
+		E8B07D481B02ECAA00AC4712 /* MemberListDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberListDataModel.m; sourceTree = "<group>"; };
+		E8B07D4A1B02ED3400AC4712 /* ChatDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDataModel.h; sourceTree = "<group>"; };
+		E8B07D4B1B02ED3400AC4712 /* ChatDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +119,27 @@
 				E817714A1AFADEEA00440F50 /* AppDelegate.m */,
 				E817714C1AFADEEA00440F50 /* ViewController.h */,
 				E817714D1AFADEEA00440F50 /* ViewController.m */,
+				E817716B1AFAE1D100440F50 /* SetupViewController.h */,
+				E817716C1AFAE1D100440F50 /* SetupViewController.m */,
+				E817716D1AFAE1D100440F50 /* SetupViewController.xib */,
+				E81771701AFAE91C00440F50 /* MemberListViewController.h */,
+				E81771711AFAE91C00440F50 /* MemberListViewController.m */,
+				E81771721AFAE91C00440F50 /* MemberListViewController.xib */,
+				E81771771AFAED8500440F50 /* MemberViewCell.h */,
+				E81771781AFAED8500440F50 /* MemberViewCell.m */,
+				E81771751AFAE9B300440F50 /* MemberViewCell.xib */,
+				E817717A1AFAF6DA00440F50 /* ChatViewController.h */,
+				E817717B1AFAF6DA00440F50 /* ChatViewController.m */,
+				E817717C1AFAF6DA00440F50 /* ChatViewController.xib */,
+				E81771811AFB232300440F50 /* ChatViewCell.h */,
+				E81771821AFB232300440F50 /* ChatViewCell.m */,
+				E817717F1AFB124500440F50 /* ChatViewCell.xib */,
+				E8B07D421B00262400AC4712 /* NetWorkController.h */,
+				E8B07D431B00262400AC4712 /* NetWorkController.m */,
+				E8B07D471B02ECAA00AC4712 /* MemberListDataModel.h */,
+				E8B07D481B02ECAA00AC4712 /* MemberListDataModel.m */,
+				E8B07D4A1B02ED3400AC4712 /* ChatDataModel.h */,
+				E8B07D4B1B02ED3400AC4712 /* ChatDataModel.m */,
 				E817714F1AFADEEA00440F50 /* Main.storyboard */,
 				E81771521AFADEEA00440F50 /* Images.xcassets */,
 				E81771541AFADEEA00440F50 /* LaunchScreen.xib */,
@@ -199,6 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81771761AFAE9B300440F50 /* MemberViewCell.xib in Resources */,
+				E81771741AFAE91C00440F50 /* MemberListViewController.xib in Resources */,
+				E817717E1AFAF6DA00440F50 /* ChatViewController.xib in Resources */,
+				E817716F1AFAE1D100440F50 /* SetupViewController.xib in Resources */,
+				E81771801AFB124500440F50 /* ChatViewCell.xib in Resources */,
 				E81771511AFADEEA00440F50 /* Main.storyboard in Resources */,
 				E81771561AFADEEA00440F50 /* LaunchScreen.xib in Resources */,
 				E81771531AFADEEA00440F50 /* Images.xcassets in Resources */,
@@ -219,9 +279,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81771791AFAED8500440F50 /* MemberViewCell.m in Sources */,
+				E81771731AFAE91C00440F50 /* MemberListViewController.m in Sources */,
+				E8B07D451B00262400AC4712 /* NetWorkController.m in Sources */,
+				E817716E1AFAE1D100440F50 /* SetupViewController.m in Sources */,
 				E817714E1AFADEEA00440F50 /* ViewController.m in Sources */,
+				E81771831AFB232300440F50 /* ChatViewCell.m in Sources */,
 				E817714B1AFADEEA00440F50 /* AppDelegate.m in Sources */,
+				E817717D1AFAF6DA00440F50 /* ChatViewController.m in Sources */,
 				E81771481AFADEEA00440F50 /* main.m in Sources */,
+				E8B07D4C1B02ED3400AC4712 /* ChatDataModel.m in Sources */,
+				E8B07D491B02ECAA00AC4712 /* MemberListDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +484,7 @@
 				E81771671AFADEEA00440F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E81771681AFADEEA00440F50 /* Build configuration list for PBXNativeTarget "MrMessangerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +493,7 @@
 				E817716A1AFADEEA00440F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
